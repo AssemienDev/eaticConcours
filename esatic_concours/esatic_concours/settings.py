@@ -83,9 +83,9 @@ WSGI_APPLICATION = 'esatic_concours.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
+        'NAME': 'esatic_bd',
+        'USER': 'admin',
+        'PASSWORD': 'esatic@2025',
         'HOST': 'localhost',
     }
 }
