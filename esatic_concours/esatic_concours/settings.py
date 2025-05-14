@@ -31,7 +31,7 @@ DEBUG = False
 if DEBUG:
     ALLOWED_HOSTS = ['127.0.0.1']
 else:
-    ALLOWED_HOSTS = ['56.228.26.247']
+    ALLOWED_HOSTS = ['56.228.26.247', 'esatic_concours.assemiendev.me']
 
 
 
